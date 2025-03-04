@@ -1,6 +1,12 @@
 # Go logger
 
-Usage:
+## Installation
+
+```bash
+go get package github.com/mrborghini/go-logger
+```
+
+## Usage
 
 ```go
 package main
