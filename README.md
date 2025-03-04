@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-go get package github.com/mrborghini/go-logger
+go get github.com/mrborghini/go-logger
 ```
 
 ## Usage
