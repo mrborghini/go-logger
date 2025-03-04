@@ -16,7 +16,7 @@ import (
 )
 
 func main() {
-	logger := gologger.NewLogger("main")
+	logger := logger.NewLogger("main")
 	logger.Info("Hello, World!")
 	logger.Warning("Hello warning!")
 	logger.Error("Hello, Error!")

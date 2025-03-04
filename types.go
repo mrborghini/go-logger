@@ -1,4 +1,4 @@
-package gologger
+package logger
 
 type LogLevel string
 
