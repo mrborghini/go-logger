@@ -24,23 +24,23 @@ func (l *Logger) log(loglevel LogLevel, message string) {
 
 // Log an info message
 func (l *Logger) Info(message string) {
-	l.log(Info, message)
+	l.log(info, message)
 }
 
 // Log a warning message
 func (l *Logger) Warning(message string) {
-	l.log(Warning, message)
+	l.log(warning, message)
 }
 
 // Log an error message
 func (l *Logger) Error(message string) {
-	l.log(Error, message)
+	l.log(error, message)
 }
 
 // Log a debug message
 func (l *Logger) Debug(message string) {
 	if strings.ToLower(os.Getenv("DEBUG")) == "true" {
-		l.log(Debug, message)
+		l.log(debug, message)
 	}
 }
 
