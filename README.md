@@ -1,5 +1,4 @@
-# Go
- logger
+# Go logger
 
 Usage:
 
