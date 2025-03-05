@@ -17,7 +17,7 @@ func NewLogger(typeName string) *Logger {
 }
 
 // Log a message
-func (l *Logger) log(loglevel LogLevel, message string) {
+func (l *Logger) log(loglevel logLevel, message string) {
 	var shownMessage string = fmt.Sprintf("%s - %s - %s]: %s\033[m", loglevel, l.typeName, getCurrentTime(), message)
 	fmt.Println(shownMessage)
 }

@@ -1,10 +1,10 @@
 package logger
 
-type LogLevel string
+type logLevel string
 
 const (
-	info    LogLevel = "\033[34m[INFO"
-	warning LogLevel = "\033[33m[WARNING"
-	error   LogLevel = "\033[31m[ERROR"
-	debug   LogLevel = "\033[32m[DEBUG"
+	info    logLevel = "\033[34m[INFO"
+	warning logLevel = "\033[33m[WARNING"
+	error   logLevel = "\033[31m[ERROR"
+	debug   logLevel = "\033[32m[DEBUG"
 )
